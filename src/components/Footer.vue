@@ -29,7 +29,7 @@ console.log('hello script setup')
                     exclusively for members of our partner's website </p>
             </v-col>
         </v-row>
-        <v-row id="footer_second_row">
+        <v-row class="center" id="footer_second_row">
             <v-col>
 
                 We accept the following credit cards
@@ -57,7 +57,6 @@ console.log('hello script setup')
 #footer_second_row {
     padding-top: 10px;
     width: 30%;
-    margin: auto;
     text-align: center;
 }
 </style>

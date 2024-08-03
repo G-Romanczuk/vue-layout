@@ -4,18 +4,18 @@
 
 <template>
     <v-card id="userForm_card">
-        <h2 id="details">Enter details</h2>
+        <h2 class="font_size_250">Enter details</h2>
         <v-col class="center" cols="11">
             <v-form>
                 <v-row no-gutters>
                     <v-col>
-                        <v-text-field class="rounded_corners" model-value="First Name" variant="outlined" readonly
-                            style="padding-right: 10px;"></v-text-field>
+                        <v-text-field class="padding_right_10px" model-value="First Name" variant="outlined"
+                            readonly></v-text-field>
                     </v-col>
 
                     <v-col>
-                        <v-text-field model-value="Last Name" variant="outlined" readonly
-                            style="padding-left: 10px;"></v-text-field>
+                        <v-text-field class="padding_left_10px" model-value="Last Name" variant="outlined"
+                            readonly></v-text-field>
                     </v-col>
                 </v-row>
                 <v-row no-gutters>
@@ -23,12 +23,12 @@
                 </v-row>
                 <v-row no-gutters>
                     <v-col>
-                        <v-text-field model-value="Postal Code" variant="outlined" readonly
-                            style="padding-right: 10px;"></v-text-field>
+                        <v-text-field class="padding_right_10px" model-value="Postal Code" variant="outlined"
+                            readonly></v-text-field>
                     </v-col>
                     <v-col>
-                        <v-text-field model-value="City" variant="outlined" readonly
-                            style="padding-left: 10px;"></v-text-field>
+                        <v-text-field class="padding_left_10px" model-value="City" variant="outlined"
+                            readonly></v-text-field>
                     </v-col>
                 </v-row>
                 <v-row no-gutters>
@@ -44,15 +44,15 @@
 
             </v-form>
 
-            <v-row id="payment_row">
+            <v-row class="center" id="logo_row">
                 <v-col>
-                    <img class="pay_img" src="../assets/mcAfee.png" alt="">
+                    <img class="logo_img" src="../assets/mcAfee.png" alt="">
                 </v-col>
                 <v-col>
-                    <img class="pay_img" src="../assets/trust.png" alt="">
+                    <img class="logo_img" src="../assets/trust.png" alt="">
                 </v-col>
                 <v-col>
-                    <img class="pay_img" src="../assets/256bit.png" alt="">
+                    <img class="logo_img" src="../assets/256bit.png" alt="">
                 </v-col>
             </v-row>
 
@@ -73,30 +73,20 @@
 #userForm_card {
     padding-top: 10px;
     width: 98%;
-    height: 90%;
     text-align: center;
     justify-content: center;
 }
 
-#details {
-    font-size: 270%;
-}
-
-#payment_row {
+#logo_row {
     padding-top: 15px;
     width: 50%;
-    margin: auto;
 }
 
-.pay_img {
+.logo_img {
     width: 90%;
 }
 
 .v-text-field ::v-deep(.v-field) {
     border-radius: 20px;
-}
-
-.center {
-    margin: auto;
 }
 </style>

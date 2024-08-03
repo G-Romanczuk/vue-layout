@@ -1,0 +1,48 @@
+.position_relative {
+  position: relative;
+}
+
+.font_size_150 {
+  font-size: 150%;
+}
+
+.font_size_250 {
+  font-size: 250%;
+}
+
+.font_size_300 {
+  font-size: 300%;
+}
+
+.font_size_350 {
+  font-size: 350%;
+}
+
+.font_size_450 {
+  font-size: 350%;
+}
+
+.white {
+  color: white;
+}
+
+.green {
+  color: #006340;
+}
+
+.center {
+  margin: auto;
+}
+
+.padding_right_10px {
+  padding-right: 10px;
+}
+
+.padding_left_10px {
+  padding-left: 10px;
+}
+
+.center_vertically {
+  display: flex;
+  align-items: center;
+}
