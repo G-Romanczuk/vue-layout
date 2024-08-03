@@ -17,4 +17,9 @@ import Footer from './components/Footer.vue';
   </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+#main_app {
+  width: 100%;
+
+}
+</style>

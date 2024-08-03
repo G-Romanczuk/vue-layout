@@ -44,6 +44,17 @@
 
             </v-form>
 
+            <v-row id="payment_row">
+                <v-col>
+                    <img class="pay_img" src="../assets/mcAfee.png" alt="">
+                </v-col>
+                <v-col>
+                    <img class="pay_img" src="../assets/trust.png" alt="">
+                </v-col>
+                <v-col>
+                    <img class="pay_img" src="../assets/256bit.png" alt="">
+                </v-col>
+            </v-row>
 
 
 
@@ -60,10 +71,22 @@
 
 <style scoped>
 #userForm_card {
-    width: 90%;
+    width: 98%;
     height: 90%;
     text-align: center;
     justify-content: center;
+}
+
+#payment_row {
+    padding-top: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+.pay_img {
+    width: 90%;
+
+
 }
 
 
