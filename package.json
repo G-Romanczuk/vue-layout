@@ -13,8 +13,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.4.29",
-    "vuetify": "^3.6.14"
+    "@mdi/font": "^7.4.47",
+    "vue": "^3.4.29"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
@@ -30,6 +30,8 @@
     "prettier": "^3.2.5",
     "typescript": "~5.4.0",
     "vite": "^5.3.1",
-    "vue-tsc": "^2.0.21"
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-tsc": "^2.0.21",
+    "vuetify": "^3.6.14"
   }
 }
