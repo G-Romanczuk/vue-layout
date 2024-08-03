@@ -32,7 +32,7 @@ import UserDetailsForm from './UserDetailsForm.vue';
             </v-col>
             <v-col>
                 <v-row>
-                    <h1> Chance to win a StockX Mystery Box today! </h1> <br />
+                    <h1> Chance to win a StockX <br> Mystery Box today! </h1> <br />
                     <h3>Unleash the Excitement of Mystery Electronics </h3>
 
 
@@ -52,7 +52,7 @@ import UserDetailsForm from './UserDetailsForm.vue';
                 <h1 style="font-size: 350%;">Top Tech Mystery Box <br>
                     at Unbeatable Prices</h1>
 
-                <h3>Fast shipping | Easy returns | Special discounts for students</h3>
+                <p id="second_row_text">Fast shipping | Easy returns | Special discounts for students</p>
 
 
             </div>
@@ -66,7 +66,8 @@ import UserDetailsForm from './UserDetailsForm.vue';
             </v-col>
             <v-col>
                 <div id="third_row_text">
-                    <h1 style="font-size: 300%;">Curious about the <span style="color:#006340;">StockX</span> Mystery
+                    <h1 style="font-size: 300%;">Curious about the <span style="color:#006340;">StockX</span> <br>
+                        Mystery
                         Box?</h1>
                     <p>Experience the thrill of unboxing cutting-edge gadgets with Stockx Mystery Boxes. Each box is a
                         treasure trove of high-quality electronics, handpicked to elevate your tech game</p>
@@ -174,8 +175,7 @@ h2 {
 
 h3 {
     font-size: 150%;
-    font-weight: 600;
-    color: #006340;
+    font-weight: 100;
 }
 
 h4 {
@@ -194,7 +194,11 @@ h4 {
     text-align: center;
 }
 
-
+#second_row_text {
+    color: #006340;
+    font-size: x-large;
+    font-weight: 500;
+}
 
 #third_row_img {
     border-radius: 50px;

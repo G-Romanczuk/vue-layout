@@ -4,12 +4,12 @@
 
 <template>
     <v-card id="userForm_card">
-        <h2>Enter Details</h2>
+        <h2 id="details">Enter details</h2>
         <v-col class="center" cols="11">
             <v-form>
                 <v-row no-gutters>
                     <v-col>
-                        <v-text-field model-value="First Name" variant="outlined" readonly
+                        <v-text-field class="rounded_corners" model-value="First Name" variant="outlined" readonly
                             style="padding-right: 10px;"></v-text-field>
                     </v-col>
 
@@ -71,10 +71,15 @@
 
 <style scoped>
 #userForm_card {
+    padding-top: 10px;
     width: 98%;
     height: 90%;
     text-align: center;
     justify-content: center;
+}
+
+#details {
+    font-size: 270%;
 }
 
 #payment_row {
@@ -85,11 +90,11 @@
 
 .pay_img {
     width: 90%;
-
-
 }
 
-
+.v-text-field ::v-deep(.v-field) {
+    border-radius: 20px;
+}
 
 .center {
     margin: auto;
